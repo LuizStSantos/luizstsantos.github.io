@@ -143,19 +143,19 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "#"
+      name: "Currículo"
+      url: "https://docs.google.com/document/d/1lr-6vL_MrSjNStXoD5sHWokM2oRrPEvP/edit?usp=sharing&ouid=109501965189563489532&rtpof=true&sd=true"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/LuizStSantos
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/luiz.st.santos?igsh=cGQxcTEwbmwzeXFs
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:

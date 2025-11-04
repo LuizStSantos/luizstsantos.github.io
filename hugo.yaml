@@ -382,24 +382,33 @@ params:
   # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
+    title: "Certificados"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Java Completo + Projetos Práticos
+        content: Formação em desenvolvimento Java, orientação a objetos, APIs e práticas avançadas.
+        url: "https://www.udemy.com/certificate/UC-8319805a-7021-430a-8adc-72a976938396/"
+        image: /images/certifications/achievement1.jpg
+
+      - title: Banco de Dados SQL do Zero ao Avançado
+        content: Modelagem, consultas avançadas e integração com aplicações backend.
+        url: "https://www.udemy.com/certificate/UC-184abab9-19c3-49b2-81ea-538575faf539/"
+        image: /images/certifications/achievement2.jpg
+
+      - title: Docker para Desenvolvimento e Deploy
+        content: Containers, imagens, redes e ambiente para aplicações em produção.
+        url: "https://www.udemy.com/certificate/UC-c9a4c32e-3b8d-40ad-9da1-4872ac21808c/"
+        image: /images/certifications/achievement3.jpg
+
+      - title: Amazon AWS para Iniciantes
+        content: Fundamentos de computação em nuvem e serviços essenciais AWS.
+        url: "https://www.udemy.com/certificate/UC-cd15dfda-1cfb-430d-93b3-e4f3fb345868/"
+        image: /images/certifications/achievement4.jpg
+        
+      - title: Git e GitHub do Zero ao Avançado
+        content: Versionamento, workflows e boas práticas para projetos colaborativos.
+        url: "https://www.udemy.com/certificate/UC-cec71f06-01b8-4a3e-8804-3fc4d0f92f3f/"
+        image: /images/certifications/achievement5.jpg
+
 
   # projects
   projects:

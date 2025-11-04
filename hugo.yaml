@@ -160,22 +160,27 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "Sobre mim"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      Sou desenvolvedor back-end com foco em Java e Spring Boot. Trabalho criando APIs, integrações e arquiteturas eficientes para aplicações modernas. Tenho experiência com microsserviços, Docker, Kubernetes, bancos de dados e ferramentas de automação.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Também atuo com sistemas de mídia e streaming, incluindo workflows com FFmpeg, SRT e playout para web TV. Gosto de unir engenharia, performance e organização para construir soluções sólidas e escaláveis.
+
+      Hoje sigo evoluindo em arquitetura back-end e plataformas distribuídas, sempre em busca de código limpo, boas práticas e aprendizado constante.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Tecnologias e ferramentas que venho utilizando:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Java"
+        - "Spring Boot"
+        - "MySQL"
+        - "Docker"
+        - "Kubernetes"
+        - "FFmpeg"
+        - "REST APIs"
+        - "Git"
+        - "AWS"
 
   # Experience
   experience:
@@ -430,3 +435,4 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+

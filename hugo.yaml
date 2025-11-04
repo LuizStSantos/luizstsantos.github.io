@@ -1,5 +1,5 @@
 baseURL: "https://portfolio.rigelorion.space"
-languageCode: "pt-BR"
+languageCode: "pt-br"
 title: "Luiz Stormorwski"
 theme: hugo-profile
 
@@ -151,6 +151,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/LuizStSantos
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/luizstsantos/
         - icon: fab fa-instagram
           url: https://www.instagram.com/luiz.st.santos?igsh=cGQxcTEwbmwzeXFs
       # customIcons:
@@ -413,7 +415,7 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Projetos"
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
@@ -463,10 +465,10 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    title: "Contato"
+    content: Minha caixa de entrada está sempre aberta. Se você tiver alguma dúvida ou apenas quiser dizer olá, farei o possível para responder!
+    btnName: Contate me
+    btnLink: mailto:luiz.st.santos@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -478,15 +480,15 @@ params:
     recentPosts:
       path: "blogs"
       count: 3
-      title: Recent Posts
+      title: Posts recentes
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/LuizStSantos
+      linkedin: https://www.linkedin.com/in/luizstsantos/
+      # twitter: https://twitter.com
+      instagram: https://www.instagram.com/luiz.st.santos?igsh=cGQxcTEwbmwzeXFs
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
@@ -497,7 +499,7 @@ params:
     socialShare: true
     readTime:
       enable: true
-      content: "min read"
+      content: "minutos de leitura"
     scrollprogress:
       enable: true
     tags:
@@ -505,16 +507,16 @@ params:
 
   # For translations
   terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "All rights reserved"
-    pageNotFound: "Page not found"
-    emailText: "Check out this site"
+    read: "Ler"
+    toc: "Índice"
+    copyright: "Todos os direitos reservados"
+    pageNotFound: "Página não encontrada"
+    emailText: "Confira este site"
 
   datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+    article: "02 Jan 2006"
+    articleList: "02 Jan 2006"
+    articleRecent: "02 Jan 2006"
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>

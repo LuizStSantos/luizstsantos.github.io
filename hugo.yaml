@@ -28,18 +28,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: galeria
-      name: Galeria
-      title: Galeria de fotos
-      url: /galeria
-      weight: 2
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
+    # - identifier: galeria
+    #   name: Galeria
+    #   title: Galeria de fotos
+    #   url: /galeria
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -485,7 +485,7 @@ params:
       path: "blogs"
       count: 3
       title: Posts recentes
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/LuizStSantos

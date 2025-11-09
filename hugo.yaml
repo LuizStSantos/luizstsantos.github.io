@@ -82,7 +82,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    defaultTheme: "dark" # dark
+    # defaultTheme: "white" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -191,7 +191,7 @@ params:
     items:
       - company: "Freelancer"
         companyUrl: ""
-        jobs: 
+        jobs:
           - name: "Desenvolvedor Back-End"
             date: "2023 - Atual"
             content: |
@@ -204,7 +204,7 @@ params:
 
       - company: "Sucesso no Campo"
         companyUrl: "https://sucessonocampo.com.br"
-        jobs: 
+        jobs:
           - name: "Engenheiro de TV"
             date: "2022 - Atual"
             content: |
@@ -217,7 +217,7 @@ params:
 
       - company: "Supera Soluções"
         companyUrl: ""
-        jobs: 
+        jobs:
           - name: "Auxiliar de Manutenção"
             date: "2019 - 2021"
             content: |
@@ -266,7 +266,7 @@ params:
 
       # - company: "Apple"
       #   companyUrl: "https://example.com"
-      #   jobs: 
+      #   jobs:
       #   - name: "Junior Software Developer"
       #     date: "Jan 2020 - Aug 2020"
       #     featuredItems:
@@ -330,7 +330,7 @@ params:
         featuredLink:
           enable: true
           name: "Ver certificado"
-          url: "https://www.linkedin.com/in/luizstsantos/details/certifications/
+          url: "https://www.linkedin.com/in/luizstsantos/details/certifications/"
 
       - title: "Tecnólogo em Análise e Desenvolvimento de Sistemas"
         school:
@@ -405,7 +405,7 @@ params:
         content: Fundamentos de computação em nuvem e serviços essenciais AWS.
         url: "https://www.udemy.com/certificate/UC-cd15dfda-1cfb-430d-93b3-e4f3fb345868/"
         image: /images/certifications/achievement4.jpg
-        
+
       - title: Git e GitHub do Zero ao Avançado
         content: Versionamento, workflows e boas práticas para projetos colaborativos.
         url: "https://www.udemy.com/certificate/UC-cec71f06-01b8-4a3e-8804-3fc4d0f92f3f/"
@@ -417,50 +417,54 @@ params:
     enable: true
     title: "Projetos"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: NewsAPI
+        content: NewsAPI é uma API RESTful construída com Java e Spring Boot que realiza web scraping no site Sucesso no Campo para coletar e armazenar artigos de notícias em um banco de dados MySQL.
+        image: /images/projects/NewsAPI.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: GitHub
+          link: https://github.com/LuizStSantos/NewsAPI
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Java"
+          - "MySQL"
+          - "Spring Boot"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/LuizStSantos/NewsAPI
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/hugo-profile
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: AuthSystem
+        content: O AuthSystem é um sistema de autenticação de usuários desenvolvido com Spring Boot. Ele permite que os usuários se registrem, façam login e visualizem uma página de boas-vindas personalizada. O aplicativo utiliza cookies para gerenciar as sessões dos usuários e o PostgreSQL como banco de dados.
+        image: /images/projects/authsystem.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: GitHub
+          link: https://github.com/LuizStSantos/authsystem
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Java"
+          - "Spring Boot"
+          - "PostgreSQL"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+      # - title: Hugo Profile V2
+      #   content: A clean and simple Hugo template for personal portfolio and blog.
+      #   image: /images/projects/profile2.jpg
+      #   featured:
+      #     name: Demo V2
+      #     link: https://hugo-profile-2.netlify.app
+      #   badges:
+      #     - "Hugo"
+      #     - "Bootstrap"
+      #     - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:

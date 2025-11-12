@@ -16,18 +16,21 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: true
-          
+      
       - name: Configurar Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.134.0'
           extended: true
 
-      - name: Build do site
-        run: hugo --minify
+      - name: Build do site com baseURL dinâmica
+        run: |
+          REPO_NAME=$(echo ${{ github.repository }} | cut -d '/' -f 2)
+          hugo --minify --baseURL "/$REPO_NAME/"
 
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          # keep_files: true  # descomente se quiser preservar arquivos antigos

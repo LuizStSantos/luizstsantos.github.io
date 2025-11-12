@@ -1,7 +1,7 @@
 baseURL: "https://luizstsantos.github.io/my-site/"
 languageCode: "pt-br"
 title: "Luiz Stormorwski"
-theme: hugo-profile
+theme: "hugo-profile"
 
 outputs:
   home:

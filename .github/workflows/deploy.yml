@@ -23,14 +23,17 @@ jobs:
           hugo-version: '0.134.0'
           extended: true
 
-      - name: Build do site com baseURL dinâmica
+      - name: Baixar tema Hugo Profile
         run: |
-          REPO_NAME=$(echo ${{ github.repository }} | cut -d '/' -f 2)
-          hugo --minify --baseURL "/$REPO_NAME/"
+          rm -rf themes/hugo-profile
+          git clone https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
+
+      - name: Build do site com baseURL real do GitHub Pages
+        run: |
+          hugo --minify --baseURL "https://luizstsantos.github.io/my-site/"
 
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # keep_files: true  # descomente se quiser preservar arquivos antigos

@@ -15,8 +15,7 @@ jobs:
       - name: Checkout código fonte
         uses: actions/checkout@v4
         with:
-          submodules: recursive
-          fetch-depth: 0
+          submodules: true
       
       - name: Configurar Hugo
         uses: peaceiris/actions-hugo@v3
@@ -24,10 +23,9 @@ jobs:
           hugo-version: '0.134.0'
           extended: true
 
-      - name: Build do site com baseURL dinâmica
+      - name: Build do site (corrigido para baseURL relativa)
         run: |
-          REPO_NAME=$(echo ${{ github.repository }} | cut -d '/' -f 2)
-          hugo --minify --baseURL "https://luizstsantos.github.io/$REPO_NAME/"
+          hugo --minify --baseURL "/" --appendPort=false
 
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

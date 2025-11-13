@@ -1,4 +1,6 @@
-baseURL: "/"
+baseURL: "https://luizstsantos.github.io/my-site/"
+relativeURLs: true
+canonifyURLs: false
 languageCode: "pt-br"
 title: "Luiz Stormorwski"
 theme: "hugo-profile"

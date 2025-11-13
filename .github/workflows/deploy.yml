@@ -23,15 +23,6 @@ jobs:
           hugo-version: '0.134.0'
           extended: true
 
-      - name: Baixar tema Hugo Profile
-        run: |
-          rm -rf themes/hugo-profile
-          git clone https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
-
-      - name: Build do site com baseURL real do GitHub Pages
-        run: |
-          hugo --minify --baseURL "/"
-
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

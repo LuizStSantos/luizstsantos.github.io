@@ -3,7 +3,7 @@ name: Publish to GitHub Pages
 on:
   push:
     branches:
-      - master # Verifique se esta é a sua branch principal (master ou main)
+      - master
 
 jobs:
   deploy:
@@ -25,21 +25,15 @@ jobs:
 
       - name: Baixar tema Hugo Profile
         run: |
-          # Garante a atualização e presença do tema
           rm -rf themes/hugo-profile
           git clone https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
 
-      - name: Build do site com baseURL dinâmica e Limpeza Forçada
+      - name: Build do site com baseURL real do GitHub Pages
         run: |
-          # Extrai o nome do repositório (ex: 'my-site')
-          REPO_NAME=$(echo ${{ github.repository }} | cut -d '/' -f 2)
-          
-          # CRÍTICO: Configuração da baseURL para Project Pages e limpeza.
-          hugo --minify --baseURL "/$REPO_NAME/" --cleanDestinationDir
+          hugo --minify --baseURL "/"
 
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages

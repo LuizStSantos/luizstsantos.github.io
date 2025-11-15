@@ -1,4 +1,4 @@
-baseURL: "https://luizstsantos.github.io/my-site/"
+baseURL: "https://luizstsantos.github.io"
 relativeURLs: false
 canonifyURLs: true
 languageCode: "pt-br"

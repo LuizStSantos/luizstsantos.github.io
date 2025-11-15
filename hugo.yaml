@@ -9,10 +9,8 @@ outputs:
   home:
     - "HTML"
     - "RSS"
-    - "JSON"
   page:
     - "HTML"
-    - "RSS"
 
 enableRobotsTXT: true
 
@@ -178,6 +176,7 @@ params:
       items:
         - "Java"
         - "Spring Boot"
+        - "Golang"
         - "MySQL"
         - "Docker"
         - "Kubernetes"

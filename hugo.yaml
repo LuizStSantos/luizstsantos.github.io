@@ -319,7 +319,8 @@ params:
         featuredLink:
           enable: true
           name: "Ver certificado"
-          url: "https://www.linkedin.com/in/luizstsantos/details/certifications/"
+          url: "/files/DesenvolvimentoBackEnd.pdf"
+          target: "_blank"
 
       - title: "Pós-Graduação em Engenharia da Computação"
         school:
@@ -331,7 +332,8 @@ params:
         featuredLink:
           enable: true
           name: "Ver certificado"
-          url: "https://www.linkedin.com/in/luizstsantos/details/certifications/"
+          url: "/files/EngenhariaDaComputacao.pdf"
+          target: "_blank"
 
       - title: "Tecnólogo em Análise e Desenvolvimento de Sistemas"
         school:
@@ -343,7 +345,8 @@ params:
         featuredLink:
           enable: true
           name: "Ver diploma"
-          url: "https://www.linkedin.com/in/luizstsantos/details/certifications/"
+          url: "/files/AnaliseDesenvolvimentoDeSistemas.pdf"
+          target: "_blank"
 
       # - title: "Master of Business Administration"
       #   school:

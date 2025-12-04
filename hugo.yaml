@@ -421,6 +421,20 @@ params:
     enable: true
     title: "Projetos"
     items:
+      - title: go-api-estoque
+        content: API simples em Go para gerenciar produtos usando PostgreSQL e Docker/Podman.
+        image: /images/projects/go-api-estoque.png
+        featured:
+          name: GitHub
+          link: https://github.com/LuizStSantos/go-api-estoque
+        badges:
+          - "Golang"
+          - "PostgreSQL"
+          - "API"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LuizStSantos/go-api-estoque
+
       - title: NewsAPI
         content: NewsAPI é uma API RESTful construída com Java e Spring Boot que realiza web scraping no site Sucesso no Campo para coletar e armazenar artigos de notícias em um banco de dados MySQL.
         image: /images/projects/NewsAPI.png

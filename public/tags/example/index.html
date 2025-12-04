@@ -28,31 +28,25 @@
 
 
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4R8DSKKTK"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-K4R8DSKKTK');
-        }
-      </script>
-<meta property="og:url" content="https://luizstsantos.github.io/tags/example/">
-  <meta property="og:site_name" content="Luiz Stormorwski">
-  <meta property="og:title" content="Example">
-  <meta property="og:description" content="Meu portfólio e blog">
-  <meta property="og:locale" content="pt_br">
-  <meta property="og:type" content="website">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4R8DSKKTK"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-K4R8DSKKTK', { 'anonymize_ip': false });
+}
+</script>
+
+<meta property="og:title" content="Example" />
+<meta property="og:description" content="Meu portfólio e blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://luizstsantos.github.io/tags/example/" /><meta property="og:site_name" content="Luiz Stormorwski | portfólio" />
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Example">
-  <meta name="twitter:description" content="Meu portfólio e blog">
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Example"/>
+<meta name="twitter:description" content="Meu portfólio e blog"/>
 
 
 <link rel="stylesheet" href="https://luizstsantos.github.io/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="https://luizstsantos.github.io/css/header.css" media="all">
@@ -326,11 +320,10 @@ Example | Luiz Stormorwski
                             <h5 class="card-title bg-transparent" title="Render Math With Mathjax">Render Math With Mathjax</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p><h2 id="mathjax">Mathjax</h2>
-<p>Math equations can be rendered using <a href="https://www.mathjax.org">Mathjax</a> syntax with AMS symbol support.</p>
-<p>Optionally enable this on a per-page basis by adding <code>mathjax: true</code> to your frontmatter.</p>
-<p>Then, use <code>$$ ... $$</code> on a line by itself to render a block equation:</p>
-<p>$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p></p>
+                            <p>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
+Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
+Then, use $$ ... $$ on a line by itself to render a block equation:
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
@@ -356,8 +349,7 @@ Example | Luiz Stormorwski
                             <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p><h2 id="paragraph">Paragraph</h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus …</p></p>
+                            <p>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus …</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
@@ -383,10 +375,9 @@ Example | Luiz Stormorwski
                             <h5 class="card-title bg-transparent" title="Emoji Support">Emoji Support</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p><p>Emoji can be enabled in a Hugo project in a number of ways. :zap:</p>
-<h2 id="emoji-support">Emoji Support</h2>
-<p>The <a href="https://gohugo.io/functions/emojify/">emojify</a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in …</p></p>
+                            <p>Emoji can be enabled in a Hugo project in a number of ways. :zap:
+Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
+To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in …</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
@@ -397,29 +388,63 @@ Example | Luiz Stormorwski
             </div>
         </div>
         
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-header">
+                        <a href="https://luizstsantos.github.io/blogs/placeholder-text/">
+                            <img src="https://luizstsantos.github.io/images/post.jpg" class="card-img-top" alt="Placeholder Text">
+                        </a>
+                    </div>
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="https://luizstsantos.github.io/blogs/placeholder-text/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Placeholder Text">Placeholder Text</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p>Lorem est tota propiore conpellat pectoribus de pectora summo.
+Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine …</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">03 Apr 2021</span>
+                        <a href="https://luizstsantos.github.io/blogs/placeholder-text/" class="float-end btn btn-outline-info btn-sm">Ler</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-header">
+                        <a href="https://luizstsantos.github.io/blogs/rich-content/">
+                            <img src="https://luizstsantos.github.io/images/post.jpg" class="card-img-top" alt="Rich Content">
+                        </a>
+                    </div>
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="https://luizstsantos.github.io/blogs/rich-content/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Rich Content">Rich Content</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p>Hugo ships with several Embedded Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
+X Simple Shortcode {{&lt; tweet user=&#34;GoHugoIO&#34; id=&#34;1315233626070503424&#34; &gt;}} Profile is a …</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">03 Apr 2021</span>
+                        <a href="https://luizstsantos.github.io/blogs/rich-content/" class="float-end btn btn-outline-info btn-sm">Ler</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class="row justify-content-center">
             <div class="col-auto m-3">
                 
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="https://luizstsantos.github.io/tags/example/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="https://luizstsantos.github.io/tags/example/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://luizstsantos.github.io/tags/example/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
             </div>
         </div>
     </div>
